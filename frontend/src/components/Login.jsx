@@ -58,6 +58,7 @@ const Login = () => {
                 <div className='mb-4'>
                     <label className='block text-gray-700 text-sm font-bold mb-2' 
                     htmlFor='password'>Password</label>
+                    
                     <input 
                     {...register("password", { required: true })}
                     type='password' name='password' id='password' placeholder='Eamil Address'
