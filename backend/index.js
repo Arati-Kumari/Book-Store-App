@@ -15,6 +15,10 @@ app.use(cors({
   credentials: true,
 }))
 
+app.get('/',(req,res)=>{
+  res.send("api is working")
+})
+
 //routes
 const bookRoutes = require("./src/books/book.route")
 const orderRoutes = require("./src/orders/order.route")
